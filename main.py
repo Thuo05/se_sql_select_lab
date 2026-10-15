@@ -132,7 +132,7 @@ sum_total_price = pd.read_sql(
     FROM orderDetails;
     """,
     conn
-)["total_price"].sum()
+).sum().reset_index(drop=True)
 
 print("\nSTEP 8: Total Order Amount")
 print(sum_total_price)
