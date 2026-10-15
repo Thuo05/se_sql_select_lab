@@ -20,7 +20,7 @@ Example:
 df_answer = pd.read_sql("""SELECT * FROM some_table""", connection)
 ```
 
-Start by running `pipenv install` and `pipenv shell`. You can run the test suite at any time to check your work with `pytest` or `pytest -x` if you want to just run 1 test at a time. You can run the file to check print statement outputs with `python3 main.py`.
+Start by running `pipenv install`. Run the test suite with `pipenv run pytest` or `pipenv run pytest -x` if you want to just run 1 test at a time. Run the file to check print statement outputs with `pipenv run python main.py`.
 
 ### Step 1
 
